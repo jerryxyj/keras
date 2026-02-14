@@ -693,6 +693,7 @@ def _list_variables_used_by_fns(fns):
     return trainable_variables, non_trainable_variables
 
 
+@keras_export("keras.export.ExportArchive")
 class ExportArchive:
     """This is the wrapper class for the backend-specific export archives.
 

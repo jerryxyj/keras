@@ -7,3 +7,4 @@ since your modifications would be overwritten.
 from keras.src.export.saved_model import (
     BackendSavedModelExportArchive as BackendSavedModelExportArchive,
 )
+from keras.src.export.saved_model import ExportArchive as ExportArchive
